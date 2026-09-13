@@ -19,8 +19,4 @@ Paste this payload:
 php -S 127.0.0.1:8080
 ./cloudflared tunnel --edge-ip-version 4 --url http://127.0.0.1:8080
 
-After pasting:
-1. Tap **Preview** tab to see how beautiful it looks
-2. Then scroll down > **Commit changes** > **Commit directly to main**
 
-Then show me the preview screenshot!
