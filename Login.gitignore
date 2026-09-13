@@ -1,5 +1,0 @@
-vendor/
-.env
-*.log
-cloudflared
-.DS_Store
