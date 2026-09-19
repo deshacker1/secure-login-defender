@@ -1,22 +1,25 @@
-# Secure Login Defender
-**Built on Android (Termux) in Nsangi, Kampala — No laptop needed**
+# Secure Login Defender - Cybersecurity Project by Okello Desmond | Kampala, Uganda
 
-By **Okello Desmond** | @deshacker1 | Safe Coder Level 5: Defender (13 Sept 2026)
+**Cybersecurity Professional | SOC Analyst L1 | Ethical Hacker | Kampala, Uganda | @deshacker1**
 
-### 🔴 Try to Hack It
-Paste this payload:
-**Result:** My code neutralizes it with `htmlspecialchars()` — safe text, never executed.
+Built on Android (Termux) in Nsangi, Kampala - A secure PHP login system defending against brute-force, SQL injection, and session hijacking.
 
-### 🛡️ Security Features
-- XSS Protection: `htmlspecialchars($input, ENT_QUOTES, 'UTF-8')`
+### Who I Am
+I'm Okello Desmond (@deshacker1), a Cybersecurity Professional based in Nsangi, Kampala, Uganda. SOC Analyst L1 | Safe Coder | Penetration Testing enthusiast.
+
+GitHub: github.com/deshacker1 | Location: Kampala, Uganda
+
+### Security Features
+- XSS Protection: htmlspecialchars()
 - Input Validation + length limits
-- DNS Hardening: Fixed Termux `/etc/resolv.conf` bug `[::1]:53` → `1.1.1.1 / 8.8.8.8`
-- Secure logging without sensitive data
-- Security headers
+- DNS Hardening: Fixed Termux /etc/resolv.conf0
 
-### 💻 How to Run (Termux)
-```bash
+- Secure logging without sensitive data
+- Security headers + Rate limiting
+
+### How to Run (Termux)
 php -S 127.0.0.1:8080
 ./cloudflared tunnel --edge-ip-version 4 --url http://127.0.0.1:8080
 
-
+### Keywords for Search
+Cybersecurity Professional Uganda, SOC Analyst Kampala, Ethical Hacker Uganda, Okello Desmond Cybersecurity
